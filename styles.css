@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+    color: #9E6DC2;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #290742;
+
+    padding-top: 1rem;
+
+    cursor: pointer;
+}
+
+.search-text {
+    padding: 11px 32px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.nav-ul li a:hover {
+    border-left: 3px solid #4fff4b;
+    transition: 0.2s;
+}
+
+.content-left p a {
+    cursor: pointer;
+
+}
+
+.content-left p a:hover {
+    color: #4fff4b;
+    transition: 0.3s;
+
+}
+
+.content-left p img {
+    cursor: pointer;
+
+}
+
+main div p {
+    padding-bottom: 2rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+time {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+header {
+    display: flex;
+    background: #290742;
+    width: 100vw;
+    flex-direction: column;
+}
+
+header label {
+
+    display: flex;
+
+}
+
+header label input {
+    background-color: #170027;
+    padding: 11px 32px;
+    border: none;
+}
+
+header label button {
+    padding: 8px 20px;
+    background-color: #9e6dc2;
+    border: none;
+    cursor: pointer;
+}
+
+header label p {
+    padding: 1rem 1rem;
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main-nav {
+    padding: 3rem 3rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    padding-left: 1rem;
+}
+
+article {
+    display: flex;
+    padding: 3rem 3rem;
+}
+
+.content-left {
+    padding-right: 8rem;
+}
+
+.content-left p {
+    color: #fff;
+}
+
+.content-left p a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #9E6DC2;
+}
+
+.main-content {
+    display: flex;
+    padding: 3rem 3rem;
+}
+
+.main-content-right {
+    padding-left: 6rem;
+}
+
+aside {
+    padding: 3rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+aside div {
+    cursor: pointer;
+}
+
+aside div {
+    padding-right: 2rem;
+}
